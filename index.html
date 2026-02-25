@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examen TailwindCSS</title>
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="flex justify-between ml-28 mr-28 h-10 w-96">
+      <img src="./src/img/Logo.svg" alt="Logo de la web" class="mt-2.5" />
+      <ul class="flex">
+        <div class="lg:flex hidden">
+          <img src="./src/img/ContactLogo.svg" alt="" />
+          <li>Contact us</li>
+        </div>
+        <div class="lg:flex hidden">
+          <img src="./src/img/ticketLogo.svg" alt="" />
+          <li>Tickets</li>
+        </div>
+        <div class="lg:flex hidden">
+          <img src="./src/img/document.svg" alt="" />
+          <li>Blogs</li>
+        </div>
+        <select name="" id="" class="lg:flex hidden">
+          <option value="en">En</option>
+          <option value="en">Fr</option>
+          <option value="en">De</option>
+          <option value="en">Sp</option>
+        </select>
+        <div class="lg:bg-[#4651C9] lg:flex hidden">
+          <img src="./src/img/user.svg" alt="" />
+          <li class="text-white">Login</li>
+        </div>
+        <div class="flex gap-4 mt-2.5">
+          <img src="./src/img/profile-circle.svg" alt="" />
+          <img src="./src/img/menu-mobile.svg" alt="" />
+        </div>
+      </ul>
+    </nav>
+    <div class="mt-4 ml-4 mr-4 w-80 h-80">
+      <img src="./src/img/Banner photo.svg" alt="" class="ml-28" />
+      <p class="z-10 -mt-20 ml-32 mr-4 text-xl w-full text-[#282831]">
+        Beyoncé Live in Concert!
+      </p>
+      <p class="z-10 ml-32 text-[#515162] mt-2">A Night to Remember!</p>
+    </div>
+    <div class="bg-[#3D3D49] -mt-17 w-96 h-44 ml-24">
+      <div
+        class="flex ml-4 mr-4 relative top-16 border-0 rounded-2xl bg-[#65657A] pt-3.5 pb-3.5 gap-3"
+      >
+        <img src="./src/img/search-normal.png" alt="" class="ml-4" />
+        <p class="text-white">Search by Artist, Event or Venue</p>
+      </div>
+      <div class="mt-18 flex gap-2 ml-4">
+        <p class="bg-[#65657A] pt-2 pl-3 pr-3 pb-2 rounded-2xl text-white">
+          #Summer
+        </p>
+        <p class="bg-[#65657A] pt-2 pl-3 pr-3 pb-2 rounded-2xl text-white">
+          #jazz
+        </p>
+        <p class="bg-[#65657A] pt-2 pl-3 pr-3 pb-2 rounded-2xl text-white">
+          #taylorSwift
+        </p>
+      </div>
+    </div>
+    <div>
+      <div class="flex gap-28 ml-28 mt-6">
+        <p>Upcoming concerts</p>
+        <p>See All</p>
+      </div>
+      <div class="w-60 h-64 mt-4 ml-38">
+        <img src="./src/img/taylorSwift.svg" alt="" />
+        <div
+          class="bg-gray-200 rounded-br-2xl rounded-bl-2xl border border-gray-50 h-35 -mt-2"
+        >
+          <p class="text-2xl w-full text-center mt-5">Jennifer Lopez</p>
+          <p class="text-xl w-full text-center mt-2">Seattle</p>
+          <p class="text-2xl w-full text-center">Dec 12, 21:00</p>
+        </div>
+      </div>
+      <div class="w-60 h-64 mt-20 ml-38">
+        <img src="./src/img/celine.svg" alt="" />
+        <div
+          class="bg-gray-200 rounded-br-2xl rounded-bl-2xl border border-gray-50 h-35 -mt-2"
+        >
+          <p class="text-2xl w-full text-center mt-5">Celine Dion</p>
+          <p class="text-xl w-full text-center mt-2">New York City</p>
+          <p class="text-2xl w-full text-center">Dec 13, 21:00</p>
+        </div>
+      </div>
+      <div class="w-60 h-64 mt-34 ml-38">
+        <img src="./src/img/justinBiber.svg" alt="" />
+        <div
+          class="bg-gray-200 rounded-br-2xl rounded-bl-2xl border border-gray-50 h-35 -mt-2"
+        >
+          <p class="text-2xl w-full text-center mt-5">Justin Bieber</p>
+          <p class="text-xl w-full text-center mt-2">San Francisco</p>
+          <p class="text-2xl w-full text-center">Dec 16, 20:00</p>
+        </div>
+      </div>
+      <div class="w-60 h-64 mt-34 ml-38">
+        <img src="./src/img/sila.svg" alt="" />
+        <div
+          class="bg-gray-200 rounded-br-2xl rounded-bl-2xl border border-gray-50 h-35 -mt-2"
+        >
+          <p class="text-2xl w-full text-center mt-5">Sila Gencoglu</p>
+          <p class="text-xl w-full text-center mt-2">Boston</p>
+          <p class="text-2xl w-full text-center">Dec 18, 22:00</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="flex gap-28 ml-28 mt-36">
+        <p>Popular near you</p>
+        <p>See All</p>
+      </div>
+      <div class="w-60 h-64 mt-4 ml-38">
+        <img src="./src/img/jenniferLopex.svg" alt="" />
+        <div
+          class="bg-gray-200 rounded-br-2xl rounded-bl-2xl border border-gray-50 h-35 -mt-2"
+        >
+          <p class="text-2xl w-full text-center mt-5">Jennifer Lopez</p>
+          <p class="text-xl w-full text-center mt-2">Seattle</p>
+          <p class="text-2xl w-full text-center">Dec 12, 21:00</p>
+        </div>
+      </div>
+      <div class="w-60 h-64 mt-36 ml-38">
+        <img src="./src/img/Zach.svg" alt="" />
+        <div
+          class="bg-gray-200 rounded-br-2xl rounded-bl-2xl border border-gray-50 h-35 -mt-2"
+        >
+          <p class="text-2xl w-full text-center mt-5">Zach Bryan</p>
+          <p class="text-xl w-full text-center mt-2">Miami</p>
+          <p class="text-2xl w-full text-center">Dec 08, 22:00</p>
+        </div>
+      </div>
+      <div class="w-60 h-64 mt-34 ml-38">
+        <img src="./src/img/Usher.svg" alt="" />
+        <div
+          class="bg-gray-200 rounded-br-2xl rounded-bl-2xl border border-gray-50 h-35 -mt-2"
+        >
+          <p class="text-2xl w-full text-center mt-5">Usher</p>
+          <p class="text-xl w-full text-center mt-2">Los Angeles</p>
+          <p class="text-2xl w-full text-center">Dec 04, 21:00</p>
+        </div>
+      </div>
+      <div class="w-60 h-64 mt-34 ml-38">
+        <img src="./src/img/Adele.svg" alt="" />
+        <div
+          class="bg-gray-200 rounded-br-2xl rounded-bl-2xl border border-gray-50 h-35 -mt-2"
+        >
+          <p class="text-2xl w-full text-center mt-5">Adele</p>
+          <p class="text-xl w-full text-center mt-2">Las Vegas</p>
+          <p class="text-2xl w-full text-center">Dec 03, 20:00</p>
+        </div>
+      </div>
+    </div>
+    <div class="mt-36 ml-28">
+      <p>Explore by category</p>
+      <div class="mt-4 ml-12">
+        <img src="./src/img/Folk.png" alt="" />
+        <p
+          class="bg-[#3D3D49] opacity-50 w-58 text-center text-white -mt-6 rounded-b-2xl"
+        >
+          Folk
+        </p>
+      </div>
+      <div class="mt-4 ml-12">
+        <img src="./src/img/classic.svg" alt="" />
+        <p
+          class="bg-[#3D3D49] opacity-50 w-58 text-center text-white -mt-6 rounded-b-2xl"
+        >
+          Classic
+        </p>
+      </div>
+      <div class="mt-4 ml-12">
+        <img src="./src/img/pop.svg" alt="" />
+        <p
+          class="bg-[#3D3D49] opacity-50 w-58 text-center text-white -mt-6 rounded-b-2xl"
+        >
+          Pop
+        </p>
+      </div>
+      <div class="mt-4 ml-12">
+        <img src="./src/img/jazz.svg" alt="" />
+        <p
+          class="bg-[#3D3D49] opacity-50 w-58 text-center text-white -mt-6 rounded-b-2xl"
+        >
+          Jazz
+        </p>
+      </div>
+      <div class="mt-4 ml-12">
+        <img src="./src/img/rock.svg" alt="" />
+        <p
+          class="bg-[#3D3D49] opacity-50 w-58 text-center text-white -mt-6 rounded-b-2xl"
+        >
+          Rock
+        </p>
+      </div>
+    </div>
+    <div class="mt-5 ml-28">
+      <p>Artist</p>
+      <div class="flex gap-6 -ml-14">
+        <img
+          src="./src/img/EllipseAdeleCompleta.svg"
+          alt=""
+          class="h-29.75 mt-2"
+        />
+        <img src="./src/img/EllipseTaylor.svg" alt="" />
+        <img src="./src/img/EllipseHarry.svg" alt="" />
+        <img
+          src="./src/img/EllipseRihannaCompleta.svg"
+          alt=""
+          class="h-29.75 mt-2"
+        />
+      </div>
+    </div>
+    <div class="w-96 h-103 bg-[#515162] ml-28 mt-5 pt-4 pl-4 pr-4">
+      <p class="text-white text-xl">The latest in music, tours & artists</p>
+      <img
+        src="./src/img/Ariadnagrande.svg"
+        alt=""
+        class="mt-4 rounded-t-2xl w-96"
+      />
+      <div class="bg-white h-26">
+        <div class="flex gap-40">
+          <p class="text-[#A3A3AF] mt-1">105 Comments</p>
+          <div class="flex gap-1">
+            <img src="./src/img/eye.svg" alt="" />
+            <p class="text-[#A3A3AF]">100K</p>
+          </div>
+        </div>
+        <p class="text-[#3D3DD49] mt-2">
+          Ariana Grande: A Pop Sensation Redefining the Music Industry
+        </p>
+      </div>
+      <p class="mt-3 text-center text-white">Explore All</p>
+    </div>
+    <div>
+      <p>What our customers say</p>
+      <p>Real reviews from concert enthusiasts who love our service</p>
+      <img src="" alt="" />
+      <div>
+        <p>Paula Green</p>
+        <img src="" alt="" />
+        <p>
+          I have bought my tickets from Concerthub many times, the experience is
+          smooth and easy, having the ticket saved in my application was
+          calming, plus I can easily save or share my favourite concerts!
+          recommended!
+        </p>
+        <img src="" alt="" />
+      </div>
+      <div class="flex gap-1">
+        <p>Have a thought?</p>
+        <img src="" alt="" />
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+</html>
